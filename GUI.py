@@ -14,7 +14,7 @@ class Grid:
     difficulty = randint(0,2)
     easy = 16
     medium = randint(17,33)
-    hard = randint(34,50)
+    hard = randint(34,45)
     n = 0
     if difficulty == 0:
         n = easy
